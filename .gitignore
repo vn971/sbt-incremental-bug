@@ -1,0 +1,10 @@
+#### IDE
+/.cache
+/.classpath
+/.ensime
+/.idea*
+/.project
+/.settings
+
+#### sbt output
+target/
