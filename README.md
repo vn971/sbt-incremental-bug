@@ -17,7 +17,7 @@ This project shows **broken** incremental compilation in SBT while using the con
 
 **Expected:**
 
-Actually, the project should NOT compile at step 7. This method is actually _used_ in Usage.scala. So Usage.scala should not be able to compile itself at step 7.
+The project should NOT compile at step 7. This commented method is the only way how Usage.scala can be compiled.
 
 **Where does this bug come from:**
 
