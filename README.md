@@ -17,7 +17,7 @@ This project shows **broken** incremental compilation in SBT while using the con
 
 **Expected:**
 
-The project should NOT compile at step 7. This commented method is the only way how Usage.scala can be compiled.
+The project should NOT compile at step 7. `MyImplicits.stringToInt` is undoubtedly used in `Usage.scala`.
 
 **Where does this bug come from:**
 
