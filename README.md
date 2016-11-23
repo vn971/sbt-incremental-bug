@@ -21,7 +21,7 @@ The project should NOT compile at step 7. This commented method is the only way 
 
 **Where does this bug come from:**
 
-This line is recommended by the (proprietary) Takipi error analyzer: https://support.overops.com/hc/en-us/articles/217928988-Viewing-Source-Code#SBT
+This build.sbt line is recommended by the (proprietary) Takipi error analyzer: https://support.overops.com/hc/en-us/articles/217928988-Viewing-Source-Code#SBT
 
 I do not fully understand how `unmanagedResourceDirectories` works, so that could be both an SBT bug or Takipi suggesting the wrong settings.
 
