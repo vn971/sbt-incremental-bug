@@ -7,7 +7,7 @@ This project shows **broken** incremental compilation in SBT while using the con
 
 **Reproducing:**
 
-One alternative, you can just run ./reproduce.sh which will reproduce all the steps below (if you have Linux at least, and probably Mac, too).
+One alternative, you can just run ./reproduce.sh which will reproduce all the steps below (if you have Linux or Mac).
 
 Reproducing by manually editing the files:
 

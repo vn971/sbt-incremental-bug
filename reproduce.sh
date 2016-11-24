@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo "======== restoring normal file tree"
 cp -a incremental-steps/UncommentedUsage.scala src/main/scala/Usage.scala
