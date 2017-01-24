@@ -30,3 +30,5 @@ This build.sbt line is recommended by the (proprietary) Takipi error analyzer: h
 I do not fully understand how `unmanagedResourceDirectories` works, so that could be both an SBT bug or Takipi suggesting the wrong settings.
 
 I would very much appreciate any help. Is this a bug in SBT?
+
+**Update:** issue raised: https://github.com/sbt/sbt/issues/2843
